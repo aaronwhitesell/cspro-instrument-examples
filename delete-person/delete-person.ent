@@ -1,0 +1,24 @@
+﻿[CSPro Application]
+Version=CSPro 7.7
+Label=ADD_ANOTHER_PERSON
+Name=ADD_ANOTHER_PERSON
+AppType=DataEntry
+OperatorID=No
+PartialSave=Yes
+CAPI=Yes
+CreateListing=No
+CreateLog=No
+ShowErrorMessageNumbers=No
+ComboBoxShowOnlyDiscreteValues=Yes
+ParadataCollection=AllEvents
+ParadataDeviceStateMinutes=5
+[AppCode]
+File=.\delete-person.ent.apc
+[Message]
+File=.\delete-person.ent.mgf
+[Help]
+File=.\delete-person.ent.qsf
+[Forms]
+File=.\delete-person.fmf
+[Dictionary Types]
+Dict-Type=.\delete-person.dcf,Input,.\delete-person.fmf
