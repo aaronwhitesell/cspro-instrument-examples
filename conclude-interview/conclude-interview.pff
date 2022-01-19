@@ -1,0 +1,8 @@
+﻿[Run Information]
+Version=CSPro 7.7
+AppType=Entry
+
+[Files]
+Application=.\conclude-interview.ent
+InputData=.\conclude-interview.csdb
+Paradata=.\conclude-interview.cslog

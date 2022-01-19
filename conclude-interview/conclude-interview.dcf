@@ -1,0 +1,197 @@
+﻿[Dictionary]
+Version=CSPro 7.7
+Label=Household
+Name=HOUSEHOLD
+RecordTypeStart=1
+RecordTypeLen=1
+Positions=Relative
+ZeroFill=Yes
+DecimalChar=Yes
+SecurityOptions=670D8AC60360B944CFFFC3B1FCC04FF040A5DAD511ECFD957D437E8B8094560B
+
+[Level]
+Label=Household Level
+Name=HOUSEHOLD_LEVEL
+
+[IdItems]
+
+[Item]
+Label=Household number
+Name=HH_NUMBER
+Start=2
+Len=4
+DataType=Numeric
+ZeroFill=Yes
+
+[Record]
+Label=Population record
+Name=POPULATION_RECORD
+RecordTypeValue='P'
+MaxRecords=35
+RecordLen=63
+
+[Item]
+Label=Name
+Name=HH_NAME
+Start=6
+Len=50
+DataType=Alpha
+
+[Item]
+Label=Relationship
+Name=HH_RELATIONSHIP
+Start=56
+Len=2
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=Relationship to Head of Household
+Name=HH_RELATIONSHIP_WITH_HEAD_VS
+Value=1;Head
+Value=2;Spouse
+Value=3;Son/Daughter
+Value=4;Grandchild
+Value=5;Brother/Sister
+Value=6;Father/Mother
+Value=7;Nephew/Niece
+Value=8;In-law
+Value=9;Other relative
+Value=10;Not related
+
+[ValueSet]
+Label=Relationship to Head of Household
+Name=HH_RELATIONSHIP_WITHOUT_HEAD_VS
+Value=2;Spouse
+Value=3;Son/Daughter
+Value=4;Grandchild
+Value=5;Brother/Sister
+Value=6;Father/Mother
+Value=7;Nephew/Niece
+Value=8;In-law
+Value=9;Other relative
+Value=10;Not related
+
+[Item]
+Label=Sex
+Name=HH_SEX
+Start=58
+Len=1
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=Sex
+Name=HH_SEX_VS1
+Value=1;Male
+Note=#male
+Value=2;Female
+Note=#female
+
+[Item]
+Label=Add another
+Name=HH_ADD_ANOTHER
+Start=59
+Len=1
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=Add another
+Name=HH_ADD_ANOTHER_VS1
+Value=1;Yes, there are additional persons
+Value=2;No, list of persons is complete
+
+[Item]
+Label=Age
+Name=HH_AGE
+Start=60
+Len=3
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=Age
+Name=HH_AGE_VS1
+Value=0:120;Age
+Value=999;Don't know
+Name=MISSING,Special
+
+[Item]
+Label=Citizen
+Name=HH_CITIZEN
+Start=63
+Len=1
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=Citizen
+Name=HH_CITIZEN_VS1
+Value=1;Yes
+Value=2;No
+
+[Record]
+Label=Metadata record
+Name=METADATA_RECORD
+RecordTypeValue='M'
+RecordLen=39
+
+[Item]
+Label=Interviewer Code
+Name=HH_INTERVIEWER_CODE
+Start=6
+Len=6
+DataType=Numeric
+ZeroFill=Yes
+
+[Item]
+Label=Supervisor Code
+Name=HH_SUPERVISOR_CODE
+Start=12
+Len=6
+DataType=Numeric
+ZeroFill=Yes
+
+[Item]
+Label=Start Interview Time
+Name=HH_START_INTERVIEW_TIME
+Start=18
+Len=10
+DataType=Numeric
+ZeroFill=Yes
+
+[Item]
+Label=End Interview Time
+Name=HH_END_INTERVIEW_TIME
+Start=28
+Len=10
+DataType=Numeric
+ZeroFill=Yes
+
+[Item]
+Label=Population Section
+Name=HH_POPULATION_SECTION
+Start=38
+Len=1
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=Population Section
+Name=HH_POPULATION_SECTION_VS1
+Value=1;Continue
+
+[Item]
+Label=Conclude Interview
+Name=HH_CONCLUDE_INTERVIEW
+Start=39
+Len=1
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=Conclude Interview
+Name=HH_CONCLUDE_INTERVIEW_VS1
+Value=1;Conclude interview
+Value=2;Review population section

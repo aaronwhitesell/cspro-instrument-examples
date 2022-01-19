@@ -17,3 +17,9 @@ Small, focused examples using CSPro to develop CAPI applications
 * Demonstrate deleting a person
 * Includes logic from add-another
 * Written using CSPro 7.7
+
+## conclude-interview
+
+* Add conclude interview field
+* Includes logic from add-another
+* Written using CSPro 7.7
