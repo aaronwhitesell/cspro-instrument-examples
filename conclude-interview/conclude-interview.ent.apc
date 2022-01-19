@@ -19,6 +19,8 @@ endif;
 
 PROC HH_POPULATION_SECTION
 
+// Adding this field gives us a destination to reenter from HH_CONCLUDE_INTERVIEW
+
 preproc
 
 // Prefill response
@@ -85,7 +87,7 @@ if HH_CONCLUDE_INTERVIEW = 1 then
 	HH_END_INTERVIEW_TIME = timestamp();
 
 elseif HH_CONCLUDE_INTERVIEW = 2 then
-	// Allows review of household members
+	// Allows review of population section
 	reenter HH_POPULATION_SECTION;
 	
 endif;
