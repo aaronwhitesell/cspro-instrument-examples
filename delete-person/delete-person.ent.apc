@@ -101,12 +101,6 @@ preproc
 
 savepartial();
 
-if curocc() < maxocc(HOUSEHOLD_ROSTER) and HH_NAME(curocc() + 1) <> "" then
-	// If there are already more rows defined, this value has to be 1
-	HH_ADD_ANOTHER = 1;
-	noinput;
-endif;
-
 onfocus
 
 // From add-another example
