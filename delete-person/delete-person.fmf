@@ -24,7 +24,7 @@ Name=FORM001
 Label=Household Form
 QuestionTextHeight=86
 Level=1
-Size=1238,357
+Size=1344,357
   
 Item=HOUSEHOLD_ROSTER
   
@@ -34,7 +34,7 @@ Item=HOUSEHOLD_ROSTER
 Name=FORM002
 Label=Demographic Form
 Level=1
-Size=308,418
+Size=349,354
   
 Item=DEMOGRAPHIC_ROSTER
   
@@ -80,7 +80,7 @@ Required=Yes
 Type=Record
 TypeName=POPULATION_RECORD
 Max=35
-DisplaySize=28,28,1213,332
+DisplaySize=28,28,1319,332
 Orientation=Horizontal
 FieldRowHeight=0
 HeadingRowHeight=0
@@ -88,177 +88,177 @@ UseOccurrenceLabels=Yes
 FreeMovement=No
  
 [Text]
-Position=7,4,22,28
+Position=0,4,124,28
 Text=1
  
   
 [Text]
-Position=7,4,22,28
+Position=0,4,124,28
 Text=2
  
   
 [Text]
-Position=7,4,22,28
+Position=0,4,124,28
 Text=3
  
   
 [Text]
-Position=7,4,22,28
+Position=0,4,124,28
 Text=4
  
   
 [Text]
-Position=7,4,22,28
+Position=0,4,124,28
 Text=5
  
   
 [Text]
-Position=7,4,22,28
+Position=0,4,124,28
 Text=6
  
   
 [Text]
-Position=7,4,22,28
+Position=0,4,124,28
 Text=7
  
   
 [Text]
-Position=7,4,22,28
+Position=0,4,124,28
 Text=8
  
   
 [Text]
-Position=7,4,22,28
+Position=0,4,124,28
 Text=9
  
   
 [Text]
-Position=0,4,22,28
+Position=0,4,124,28
 Text=10
  
   
 [Text]
-Position=1,4,22,28
+Position=0,4,124,28
 Text=11
  
   
 [Text]
-Position=0,4,22,28
+Position=0,4,124,28
 Text=12
  
   
 [Text]
-Position=0,4,22,28
+Position=0,4,124,28
 Text=13
  
   
 [Text]
-Position=0,4,22,28
+Position=0,4,124,28
 Text=14
  
   
 [Text]
-Position=0,4,22,28
+Position=0,4,124,28
 Text=15
  
   
 [Text]
-Position=0,4,22,28
+Position=0,4,124,28
 Text=16
  
   
 [Text]
-Position=0,4,22,28
+Position=0,4,124,28
 Text=17
  
   
 [Text]
-Position=0,4,22,28
+Position=0,4,124,28
 Text=18
  
   
 [Text]
-Position=0,4,22,28
+Position=0,4,124,28
 Text=19
  
   
 [Text]
-Position=0,4,22,28
+Position=0,4,124,28
 Text=20
  
   
 [Text]
-Position=0,4,22,28
+Position=0,4,124,28
 Text=21
  
   
 [Text]
-Position=0,4,22,28
+Position=0,4,124,28
 Text=22
  
   
 [Text]
-Position=0,4,22,28
+Position=0,4,124,28
 Text=23
  
   
 [Text]
-Position=0,4,22,28
+Position=0,4,124,28
 Text=24
  
   
 [Text]
-Position=0,4,22,28
+Position=0,4,124,28
 Text=25
  
   
 [Text]
-Position=0,4,22,28
+Position=0,4,124,28
 Text=26
  
   
 [Text]
-Position=0,4,22,28
+Position=0,4,124,28
 Text=27
  
   
 [Text]
-Position=0,4,22,28
+Position=0,4,124,28
 Text=28
  
   
 [Text]
-Position=0,4,22,28
+Position=0,4,124,28
 Text=29
  
   
 [Text]
-Position=0,4,22,28
+Position=0,4,124,28
 Text=30
  
   
 [Text]
-Position=0,4,22,28
+Position=0,4,124,28
 Text=31
  
   
 [Text]
-Position=0,4,22,28
+Position=0,4,124,28
 Text=32
  
   
 [Text]
-Position=0,4,22,28
+Position=0,4,124,28
 Text=33
  
   
 [Text]
-Position=0,4,22,28
+Position=0,4,124,28
 Text=34
  
   
 [Text]
-Position=0,4,22,28
+Position=0,4,124,28
 Text=35
  
   
@@ -381,185 +381,185 @@ Required=Yes
 Type=Record
 TypeName=POPULATION_RECORD
 Max=35
-DisplaySize=35,25,216,329
+DisplaySize=35,25,324,329
 Orientation=Horizontal
 FieldRowHeight=0
-HeadingRowHeight=0
+HeadingRowHeight=24
 UseOccurrenceLabels=Yes
 FreeMovement=No
  
 [Text]
-Position=7,4,22,28
+Position=0,4,123,28
 Text=1
  
   
 [Text]
-Position=7,4,22,28
+Position=0,4,123,28
 Text=2
  
   
 [Text]
-Position=7,4,22,28
+Position=0,4,123,28
 Text=3
  
   
 [Text]
-Position=7,4,22,28
+Position=0,4,123,28
 Text=4
  
   
 [Text]
-Position=7,4,22,28
+Position=0,4,123,28
 Text=5
  
   
 [Text]
-Position=7,4,22,28
+Position=0,4,123,28
 Text=6
  
   
 [Text]
-Position=7,4,22,28
+Position=0,4,123,28
 Text=7
  
   
 [Text]
-Position=7,4,22,28
+Position=0,4,123,28
 Text=8
  
   
 [Text]
-Position=7,4,22,28
+Position=0,4,123,28
 Text=9
  
   
 [Text]
-Position=0,4,22,28
+Position=0,4,123,28
 Text=10
  
   
 [Text]
-Position=1,4,22,28
+Position=0,4,123,28
 Text=11
  
   
 [Text]
-Position=0,4,22,28
+Position=0,4,123,28
 Text=12
  
   
 [Text]
-Position=0,4,22,28
+Position=0,4,123,28
 Text=13
  
   
 [Text]
-Position=0,4,22,28
+Position=0,4,123,28
 Text=14
  
   
 [Text]
-Position=0,4,22,28
+Position=0,4,123,28
 Text=15
  
   
 [Text]
-Position=0,4,22,28
+Position=0,4,123,28
 Text=16
  
   
 [Text]
-Position=0,4,22,28
+Position=0,4,123,28
 Text=17
  
   
 [Text]
-Position=0,4,22,28
+Position=0,4,123,28
 Text=18
  
   
 [Text]
-Position=0,4,22,28
+Position=0,4,123,28
 Text=19
  
   
 [Text]
-Position=0,4,22,28
+Position=0,4,123,28
 Text=20
  
   
 [Text]
-Position=0,4,22,28
+Position=0,4,123,28
 Text=21
  
   
 [Text]
-Position=0,4,22,28
+Position=0,4,123,28
 Text=22
  
   
 [Text]
-Position=0,4,22,28
+Position=0,4,123,28
 Text=23
  
   
 [Text]
-Position=0,4,22,28
+Position=0,4,123,28
 Text=24
  
   
 [Text]
-Position=0,4,22,28
+Position=0,4,123,28
 Text=25
  
   
 [Text]
-Position=0,4,22,28
+Position=0,4,123,28
 Text=26
  
   
 [Text]
-Position=0,4,22,28
+Position=0,4,123,28
 Text=27
  
   
 [Text]
-Position=0,4,22,28
+Position=0,4,123,28
 Text=28
  
   
 [Text]
-Position=0,4,22,28
+Position=0,4,123,28
 Text=29
  
   
 [Text]
-Position=0,4,22,28
+Position=0,4,123,28
 Text=30
  
   
 [Text]
-Position=0,4,22,28
+Position=0,4,123,28
 Text=31
  
   
 [Text]
-Position=0,4,22,28
+Position=0,4,123,28
 Text=32
  
   
 [Text]
-Position=0,4,22,28
+Position=0,4,123,28
 Text=33
  
   
 [Text]
-Position=0,4,22,28
+Position=0,4,123,28
 Text=34
  
   
 [Text]
-Position=0,4,22,28
+Position=0,4,123,28
 Text=35
  
   
@@ -568,10 +568,10 @@ Width=10
 [EndColumn]
   
 [Column]
-Width=60
+Width=65
   
 [HeaderText]
-Position=0,0,60,24
+Position=5,0,65,24
 Text=HH_AGE
  
 [Field]

@@ -15,7 +15,7 @@ function ShowHidePopulation()
 		string populationLabel;
 
 		if showRow then
-			populationLabel = HH_NAME(ctr);
+			populationLabel = strip(HH_NAME(ctr));
 
 		else
 			populationLabel = "<Deleted>";
