@@ -1,0 +1,175 @@
+{
+  "software": "CSPro", 
+  "version": 8.0, 
+  "fileType": "dictionary", 
+  "name": "GPS_DICT", 
+  "labels": [ { "text": "gps" } ], 
+  "security": {
+    "allowDataViewerModifications": true, 
+    "allowExport": true, 
+    "cachedPasswordMinutes": 0, 
+    "settings": "e58748ef2e63cb86b504db08ac34ab46fd23856e50965ddce028effe846abf59"
+  }, 
+  "recordType": {
+    "start": 1, 
+    "length": 1
+  }, 
+  "defaults": {
+    "decimalMark": true, 
+    "zeroFill": true
+  }, 
+  "relativePositions": true, 
+  "levels": [
+    {
+      "name": "GPS_LEVEL", 
+      "labels": [ { "text": "gps Level" } ], 
+      "ids": {
+        "items": [
+          {
+            "name": "HOUSEHOLD_ID", 
+            "labels": [ { "text": "Household ID" } ], 
+            "contentType": "numeric", 
+            "start": 2, 
+            "length": 1, 
+            "zeroFill": true
+          }
+        ]
+      }, 
+      "records": [
+        {
+          "name": "HOUSING", 
+          "labels": [ { "text": "Housing" } ], 
+          "recordType": "1", 
+          "occurrences": {
+            "required": true, 
+            "maximum": 1
+          }, 
+          "items": [
+            {
+              "name": "H_LATITUDE", 
+              "labels": [ { "text": "Latitude" } ], 
+              "contentType": "numeric", 
+              "length": 10, 
+              "decimals": 6, 
+              "decimalMark": true, 
+              "zeroFill": true
+            }, 
+            {
+              "name": "H_LONGITUDE", 
+              "labels": [ { "text": "Longitude" } ], 
+              "contentType": "numeric", 
+              "length": 11, 
+              "decimals": 6, 
+              "decimalMark": true, 
+              "zeroFill": true
+            }, 
+            {
+              "name": "H_ALTITUDE", 
+              "labels": [ { "text": "Altitude" } ], 
+              "contentType": "numeric", 
+              "length": 7, 
+              "decimals": 4, 
+              "decimalMark": true, 
+              "zeroFill": true
+            }, 
+            {
+              "name": "H_ACCURACY", 
+              "labels": [ { "text": "Accuracy" } ], 
+              "contentType": "numeric", 
+              "length": 6, 
+              "decimals": 1, 
+              "decimalMark": true, 
+              "zeroFill": true
+            }, 
+            {
+              "name": "H_SATELLITES", 
+              "labels": [ { "text": "Satellites" } ], 
+              "contentType": "numeric", 
+              "length": 3, 
+              "zeroFill": true
+            }, 
+            {
+              "name": "H_READTIME", 
+              "labels": [ { "text": "Readtime" } ], 
+              "contentType": "numeric", 
+              "length": 6, 
+              "zeroFill": true
+            }
+          ]
+        }, 
+        {
+          "name": "METADATA", 
+          "labels": [ { "text": "Metadata" } ], 
+          "recordType": "2", 
+          "occurrences": {
+            "required": true, 
+            "maximum": 1
+          }, 
+          "items": [
+            {
+              "name": "TAKE_GPS_READING", 
+              "labels": [ { "text": "Take GPS reading" } ], 
+              "contentType": "numeric", 
+              "length": 1, 
+              "zeroFill": true, 
+              "valueSets": [
+                {
+                  "name": "DEFAULT_GPS_VS", 
+                  "labels": [ { "text": "Take GPS reading" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "Take structure GPS" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "Update structure GPS" } ], 
+                      "pairs": [ { "value": "2" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "Skip structure GPS" } ], 
+                      "pairs": [ { "value": "3" } ]
+                    }
+                  ]
+                }, 
+                {
+                  "name": "BLANK_GPS_VS", 
+                  "labels": [ { "text": "Take GPS reading" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "Take structure GPS" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }
+                  ]
+                }, 
+                {
+                  "name": "EXISTING_GPS_VS", 
+                  "labels": [ { "text": "Take GPS reading" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "Update structure GPS" } ], 
+                      "pairs": [ { "value": "2" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "Skip structure GPS" } ], 
+                      "pairs": [ { "value": "3" } ]
+                    }
+                  ]
+                }, 
+                {
+                  "name": "WINDOWS_GPS_VS", 
+                  "labels": [ { "text": "Take GPS reading" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "Skip structure GPS" } ], 
+                      "pairs": [ { "value": "3" } ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
